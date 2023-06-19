@@ -13,5 +13,5 @@ def delete_webhook():
 def set_webhook(url):
     print(bot.set_webhook(url=url))
 
-# set_webhook('https://google.com/webhook/')
+set_webhook('https://echobotdeploy.pythonanywhere.com/webhook/')
 # get_info()
