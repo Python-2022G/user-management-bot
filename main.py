@@ -5,7 +5,7 @@ bot_app = Flask(__name__)
 TOKEN = '6025180683:AAEEPoYUMu35d_m5ZtyMv03XUcgr0TzOfRM'
 
 
-@bot_app.route('webhook/', methods=['POST', 'GET'])
+@bot_app.route('/webhook/', methods=['POST', 'GET'])
 def webhook_bot():
     if request.method == 'GET':
         return "Webhook is working now!"
